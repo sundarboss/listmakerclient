@@ -1,0 +1,14 @@
+@for $i from 0 through 6 {
+    .activeitem-#{$i} {
+        animation-name: list;
+        animation-duration: 2s;
+        animation-delay: ($i * 2s);
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes list {
+    0% {left: -1000px; opacity: 0;}
+    100% {left: 0; opacity: 1;}
+}

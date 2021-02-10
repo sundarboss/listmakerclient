@@ -1,0 +1,41 @@
+.modal-container {
+    position: fixed;
+    top: 17rem;
+    left: calc((100% - 40rem) / 2);
+    width: 40rem;
+    background-color: rgb(250,244,244);
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.7);
+}
+
+.modal-header {
+    background-color: blue;
+    color: white;
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.modal-section {
+    margin: 2rem 0;
+    padding: 0 1.3rem;
+    font-size: 1.3rem;
+}
+
+.modal-footer {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-btn {
+    margin-left: 0.7rem;
+}
+
+.modal-input {
+    font-size: 1.2rem;
+}

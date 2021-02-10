@@ -1,0 +1,32 @@
+.finished-container {
+    width: 50rem;
+    margin: 2.5rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-align: left;
+    background-color: rgb(242, 240, 240);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.7);
+}
+
+.finished-header {
+    margin-bottom: 1rem;
+}
+
+.finished-header h3 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.finished-header p {
+    margin: 0.3rem 0;
+    font-style: italic;
+}
+
+.finished-dates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finished-desc p {
+    font-size: 1.4rem;
+}
